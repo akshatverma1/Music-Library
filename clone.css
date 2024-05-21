@@ -1,0 +1,27 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.sidebar{
+  width: 281px;
+  /* height: 800px; */
+  background-color: #fff;
+  /* display: inline-block; */
+}
+.main-content{
+  width: 300px;
+  
+  background-color: #fff;
+}
