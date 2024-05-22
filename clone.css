@@ -291,10 +291,15 @@ body{
 .music-player{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .section1{
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.3rem;
+  margin-left: 0.5rem;
 }
 .section2{
   width: 100%;
@@ -304,6 +309,11 @@ body{
 }
 .section3{
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1rem;
 }
 .palyerimage{
   margin: 0rem 1rem 0rem 1rem;
@@ -334,4 +344,43 @@ body{
   align-items: center;
   font-size: 0.7rem;
   color:white;
+}
+.husn-img{
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.title-husn{
+  font-size: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+.para-husn{
+  font-size: 0.5rem;
+}
+.text{
+  margin: 0rem 0.6rem 0rem 0.6rem;
+}
+.icon-plus {
+  margin-left: 1rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icon-section3{
+  display: flex;
+  flex-direction: row;
+  /* margin: 0rem 0rem 0rem 1rem; */
+}
+.iconsection3{
+  margin: 0.5rem;
+  opacity: 0.8;
+}
+.range2{
+  width: 6.25rem;
+  height: 0.5rem;
+
+}
+.expand{
+  margin-left: 1rem;
 }
