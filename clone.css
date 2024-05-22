@@ -288,3 +288,50 @@ body{
   height: 300px;
   width: 100%;
 }
+.music-player{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section1{
+  width: 100%;
+}
+.section2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section3{
+  width: 100%;
+}
+.palyerimage{
+  margin: 0rem 1rem 0rem 1rem;
+  width: 1rem;
+  height: 1rem;
+}
+.player-icons{
+  margin: 0.3rem 0rem 0.4rem 0rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.extra{
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 0.3rem;
+}
+.range{
+  width: 300px;
+  height: 0.3rem;
+  padding: 0rem 0.2rem 0rem 0.2rem;
+}
+.range-contanier{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  color:white;
+}
